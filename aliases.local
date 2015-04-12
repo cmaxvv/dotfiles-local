@@ -1,0 +1,1 @@
+alias myrcup='env RCRC=$HOME/Workspaces/github/dotfiles/rcrc rcup'
