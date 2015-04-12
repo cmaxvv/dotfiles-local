@@ -1,7 +1,9 @@
-#!/bin/bash
+#!/usr/local/bin/zsh
 
 mkdir -p $HOME/Workspaces/sources
 mkdir -p $HOME/Workspaces/repositories
 mkdir -p $HOME/Workspaces/projects
+
+env RCRC=$HOME/Workspaces/github/dotfiles-local/rcrc rcup
 
 echo "done";
