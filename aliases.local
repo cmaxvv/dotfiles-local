@@ -1,1 +1,7 @@
 alias myrcup='env RCRC=$HOME/Workspaces/github/dotfiles/rcrc rcup'
+
+alias mydot="cd $HOME/Workspaces/github/dotfiles-local"
+alias mygithub="cd $HOME/Workspaces/github"
+alias myproj="cd $HOME/Workspaces/projects"
+alias mysrc="cd $HOME/Workspaces/sources"
+alias myrepo="cd $HOME/Workspaces/repositories"
