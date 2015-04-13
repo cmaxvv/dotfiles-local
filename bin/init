@@ -4,6 +4,12 @@ mkdir -p $HOME/Workspaces/sources
 mkdir -p $HOME/Workspaces/repositories
 mkdir -p $HOME/Workspaces/projects
 
+function omz_init() {
+	if [ ! -d $HOME/.oh-my-zsh ]; then
+		git clone git://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh && echo 'omz cloned';
+	fi
+}
+
 env RCRC=$HOME/Workspaces/github/dotfiles-local/rcrc rcup
 
 echo "done";
