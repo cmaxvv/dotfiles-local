@@ -4,3 +4,7 @@ set shiftwidth=4
 set shiftround
 
 set foldmethod=marker
+
+if $SHELL =~ 'fish'
+	set shell=sh
+endif
