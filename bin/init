@@ -1,15 +1,43 @@
-#!/usr/local/bin/zsh
+#!/usr/bin/env zsh
+
 
 mkdir -p $HOME/Workspaces/sources
 mkdir -p $HOME/Workspaces/repositories
 mkdir -p $HOME/Workspaces/projects
 
+function ubuntu_install() {
+	sudo apt-get install ubuntu-restricted-extras && 
+	sudo add-apt-repository ppa:martin-frost/thoughtbot-rcm &&
+	sudo apt-get update && 
+	sudo apt-get install rcm
+}
+
+function osx_install() {
+	echo 'start install rcm';
+	brew tap thoughtbot/formulae && \
+		brew install rcm;
+	echo 'rcm installed';
+
+}
+
 function omz_init() {
+	echo 'start omz';
 	if [ ! -d $HOME/.oh-my-zsh ]; then
-		git clone git://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh && echo 'omz cloned';
+		git clone git://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh && \
+			echo 'omz cloned';
 	fi
 }
 
-env RCRC=$HOME/Workspaces/github/dotfiles-local/rcrc rcup
+function fresh_install() {
+	omz_init
+}
+
+function update_install() {
+	env RCRC=$HOME/Workspaces/github/dotfiles-local/rcrc rcup
+}
+
+update_install
+#ubuntu_install
+#osx_install
 
 echo "done";
