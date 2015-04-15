@@ -1,15 +1,35 @@
-Plugin 'svnvimdiff'
+Plugin 'molokai'
+"Plugin 'Syntastic'
+"Plugin 'scrooloose/syntastic'
+"Plugin 'svnvimdiff'
+
+"Plugin 'pathogen.vim'
+
 Plugin 'taglist.vim'
-Plugin 'The-NERD-tree'
-Plugin 'Gundo'
-Plugin 'The-NERD-Commenter'
-Plugin 'checksyntax'
+Plugin 'Tagbar'
+"Plugin 'xolox/vim-misc'
+"Plugin 'xolox/vim-easytags'
+
+"Plugin 'The-NERD-tree'
+"Plugin 'Gundo'
+"Plugin 'The-NERD-Commenter'
+"Plugin 'checksyntax'
+"Plugin 'Shougo/neocomplete'
+"Plugin 'Shougo/vimshell'
+
+"Plugin 'Valloric/YouCompleteMe'
+
 " c/c++
-Plugin 'a.vim'
+"Plugin 'a.vim'
+
 " git ...
 Plugin 'airblade/vim-gitgutter'
-Plugin 'gitv'
+"Plugin 'gitv'
+"
 " markdown ...
-Plugin 'Markdown'
+"Plugin 'Markdown'
+
 " golang ...
+Plugin 'fatih/vim-go'
 Plugin 'Blackrush/vim-gocode'
+"Plugin 'vim-jp/vim-go-extra'
