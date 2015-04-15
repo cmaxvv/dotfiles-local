@@ -1,1 +1,15 @@
 Plugin 'svnvimdiff'
+Plugin 'taglist.vim'
+Plugin 'The-NERD-tree'
+Plugin 'Gundo'
+Plugin 'The-NERD-Commenter'
+Plugin 'checksyntax'
+" c/c++
+Plugin 'a.vim'
+" git ...
+Plugin 'airblade/vim-gitgutter'
+Plugin 'gitv'
+" markdown ...
+Plugin 'Markdown'
+" golang ...
+Plugin 'Blackrush/vim-gocode'
