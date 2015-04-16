@@ -1,35 +1,43 @@
 Plugin 'molokai'
+Plugin 'Solarized'
+Plugin 'bling/vim-airline'
+"Plugin 'winmanager'
+Plugin 'supertab'
+"Plugin 'bufexplorer.zip'
+Plugin 'minibufexpl.vim'
+"Plugin 'ShowMarks7'
 "Plugin 'Syntastic'
 "Plugin 'scrooloose/syntastic'
 "Plugin 'svnvimdiff'
 
 "Plugin 'pathogen.vim'
 
-Plugin 'taglist.vim'
+"Plugin 'taglist.vim'
 Plugin 'Tagbar'
 "Plugin 'xolox/vim-misc'
 "Plugin 'xolox/vim-easytags'
 
-"Plugin 'The-NERD-tree'
-"Plugin 'Gundo'
-"Plugin 'The-NERD-Commenter'
+Plugin 'The-NERD-tree'
+Plugin 'Gundo'
+Plugin 'The-NERD-Commenter'
 "Plugin 'checksyntax'
-"Plugin 'Shougo/neocomplete'
-"Plugin 'Shougo/vimshell'
+Plugin 'Shougo/neocomplete'
+Plugin 'Shougo/vimshell'
 
 "Plugin 'Valloric/YouCompleteMe'
 
 " c/c++
-"Plugin 'a.vim'
+"Plugin 'a.vim' // have bug , when press space, freeze
 
 " git ...
 Plugin 'airblade/vim-gitgutter'
-"Plugin 'gitv'
+Plugin 'gitv'
 "
 " markdown ...
-"Plugin 'Markdown'
+Plugin 'Markdown'
 
 " golang ...
 Plugin 'fatih/vim-go'
 Plugin 'Blackrush/vim-gocode'
-"Plugin 'vim-jp/vim-go-extra'
+Plugin 'dgryski/vim-godef'
+Plugin 'vim-jp/vim-go-extra'

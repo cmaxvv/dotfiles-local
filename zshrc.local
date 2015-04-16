@@ -1,2 +1,7 @@
 export PATH="/usr/local/bin:$PATH"
 [[ -f ~/.oh-my-zsh.local ]] && source ~/.oh-my-zsh.local
+
+export GOROOT=/usr/local/opt/go/libexec
+export GOPATH=$HOME/Workspaces/gopath
+export GOBIN=$HOME/Workspaces/gopath/bin
+export PATH="/usr/local/bin:$PATH:$GOROOT/bin:$GOPATH/bin"

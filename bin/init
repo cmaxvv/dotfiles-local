@@ -1,6 +1,7 @@
 #!/usr/bin/env zsh
 
 
+mkdir -p $HOME/Workspaces/gopath/bin
 mkdir -p $HOME/Workspaces/sources
 mkdir -p $HOME/Workspaces/repositories
 mkdir -p $HOME/Workspaces/projects
