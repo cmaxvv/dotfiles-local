@@ -1,5 +1,5 @@
 Plugin 'molokai'
-Plugin 'Solarized'
+"Plugin 'Solarized'
 Plugin 'bling/vim-airline'
 "Plugin 'winmanager'
 Plugin 'supertab'
