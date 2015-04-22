@@ -2,6 +2,7 @@ set expandtab!
 set tabstop=4
 set shiftwidth=4
 set shiftround
+set guitablabel=%N/\ %t\ %M
 
 set foldmethod=marker
 
@@ -15,8 +16,14 @@ syntax enable
 " set background=dark
 " colorscheme solarized
 " let g:solarized_termcolors=256
-
 colorscheme molokai
+
+"""""""""""""""""""""""""""""""
+" airline
+"""""""""""""""""""""""""""""""
+let g:airline_powerline_fonts = 1
+"let g:airline_theme="powerlineish"
+let g:airline#extensions#tabline#enabled = 1
 
 """""""""""""""""""""""""""""""
 " NERDTree
@@ -77,4 +84,17 @@ nmap <C-m> :WMToggle<cr>
 "if g:AutoOpenWinManager
 "	autocmd VimEnter * nested call s:StartWindowsManager()|1wincmd w
 "endif
+"}}}
+
+"""""""""""""""""""""""""""""""
+" ctrlp 
+"""""""""""""""""""""""""""""""
+"{{{
+"let g:ctrlp_working_path_mode = 0
+"let g:ctrlp_map = '<c-f>'
+"let g:ctrlp_max_height = 20
+"let g:ctrlp_custom_ignore = 'node_modules\|^\.DS_Store\|^\.git\|^\.coffee'
+
+"map <leader>j :CtrlP<cr>
+"map <c-b> :CtrlPBuffer<cr>
 "}}}

@@ -29,11 +29,22 @@ function omz_init() {
 	fi
 }
 
+function powerline_fonts_init() {
+	echo 'start power line fonts check';
+	if [ ! -d $HOME/.powerline-fonts ]; then
+		git clone git@github.com:powerline/fonts.git  ~/.powerline-fonts && \
+			echo 'power line cloned';
+		cd ~/.powerline-fonts && ./install.sh
+	fi
+}
+
 function fresh_install() {
 	omz_init
 }
 
 function update_install() {
+	omz_init
+	powerline_fonts_init
 	env RCRC=$HOME/Workspaces/github/dotfiles-local/rcrc rcup
 }
 
