@@ -7,7 +7,7 @@ set foldmethod=marker
 if $SHELL =~ 'fish'
 	set shell=sh
 endif
-"colorscheme molokai
+colorscheme molokai
 
 """""""""""""""""""""""""""""""
 " Solarized
@@ -16,7 +16,7 @@ endif
 " https://github.com/altercation/solarized
 syntax enable
 set background=dark
-colorscheme solarized
+"colorscheme solarized
 let g:solarized_termcolors=256
 "}}}
 
@@ -25,7 +25,7 @@ let g:solarized_termcolors=256
 """""""""""""""""""""""""""""""
 "{{{
 let g:airline_powerline_fonts = 1
-let g:airline_theme="solarized"
+"let g:airline_theme="solarized"
 "let g:airline#extensions#tabline#enabled = 1
 "}}}
 
