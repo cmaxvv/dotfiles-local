@@ -5,3 +5,4 @@ export GOROOT=/usr/local/opt/go/libexec
 export GOPATH=$HOME/Workspaces/gopath
 export GOBIN=$HOME/Workspaces/gopath/bin
 export PATH="/usr/local/bin:$PATH:$GOROOT/bin:$GOPATH/bin"
+export TERM='xterm-256color'
